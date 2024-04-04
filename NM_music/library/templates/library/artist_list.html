@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Artist List</title>
+</head>
+
+<body>
+    <h1>Artists</h1>
+    <ul>
+        {% for artist in artists %}
+        <li>{{ artist.name }} - {{ artist.genre }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
