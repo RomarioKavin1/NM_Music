@@ -1,0 +1,47 @@
+[
+  {
+    "model": "library.track",
+    "pk": 1,
+    "fields": {
+      "album": 1,
+      "title": "Sadda Haq",
+      "duration": 318
+    }
+  },
+  {
+    "model": "library.track",
+    "pk": 2,
+    "fields": {
+      "album": 1,
+      "title": "Kun Faya Kun",
+      "duration": 480
+    }
+  },
+  {
+    "model": "library.track",
+    "pk": 3,
+    "fields": {
+      "album": 2,
+      "title": "This is Me",
+      "duration": 295
+    }
+  },
+  {
+    "model": "library.track",
+    "pk": 4,
+    "fields": {
+      "album": 3,
+      "title": "Why This Kolaveri Di",
+      "duration": 262
+    }
+  },
+  {
+    "model": "library.track",
+    "pk": 5,
+    "fields": {
+      "album": 4,
+      "title": "Thuli Thuli",
+      "duration": 260
+    }
+  }
+]

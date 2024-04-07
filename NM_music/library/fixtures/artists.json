@@ -1,0 +1,83 @@
+[
+  {
+    "model": "library.album",
+    "pk": 1,
+    "fields": {
+      "artist": 1,
+      "title": "Rockstar",
+      "release_date": "2011-11-11"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 2,
+    "fields": {
+      "artist": 2,
+      "title": "Thiruvasagam",
+      "release_date": "2005-07-01"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 3,
+    "fields": {
+      "artist": 3,
+      "title": "Kolaveri Di",
+      "release_date": "2012-02-14"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 4,
+    "fields": {
+      "artist": 4,
+      "title": "Paiyaa",
+      "release_date": "2010-03-22"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 5,
+    "fields": {
+      "artist": 5,
+      "title": "Abbey Road",
+      "release_date": "1969-09-26"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 6,
+    "fields": {
+      "artist": 6,
+      "title": "Lemonade",
+      "release_date": "2016-04-23"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 7,
+    "fields": {
+      "artist": 7,
+      "title": "Kind of Blue",
+      "release_date": "1959-08-17"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 8,
+    "fields": {
+      "artist": 8,
+      "title": "1989",
+      "release_date": "2014-10-27"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 9,
+    "fields": {
+      "artist": 9,
+      "title": "Highway 61 Revisited",
+      "release_date": "1965-08-30"
+    }
+  }
+]
