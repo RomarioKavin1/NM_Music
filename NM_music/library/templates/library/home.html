@@ -6,51 +6,62 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+            background-color: #121212;
             margin: 0;
-            padding: 40px;
+            padding: 0;
             color: #fff;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
         }
 
         h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
+            font-size: 2rem;
+            margin: 20px;
+            text-align: center;
         }
 
         nav {
             display: flex;
-            gap: 20px;
             justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
         }
 
         a {
             text-decoration: none;
             color: #fff;
             font-size: 1.2rem;
-            padding: 12px 24px;
+            padding: 10px 20px;
             border-radius: 30px;
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: #1db954;
             border: 2px solid transparent;
-            transition: all 0.3s ease;
+            transition: background-color 0.3s ease, transform 0.3s ease;
             display: flex;
             align-items: center;
             gap: 8px;
+            margin: 0 10px;
         }
 
         a:hover,
         a:focus {
-            background-color: transparent;
-            border-color: #fff;
+            background-color: #1ed760;
             transform: scale(1.05);
         }
 
         a svg {
-            fill: currentColor;
+            fill: #fff;
+            width: 20px;
+            height: 20px;
+        }
+
+        .register-button {
+            background-color: transparent;
+            border-color: #fff;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .register-button:hover,
+        .register-button:focus {
+            background-color: #1db954;
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -59,16 +70,23 @@
     <h1>Welcome to Naan Mudhalvan Music Player</h1>
     <nav>
         <a href="{% url 'artist_list' %}">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M9 3l-7 7 7 7v-4h6v-6h-6v-4zm2 5h2v4h-2v-4zm11-1v6h-8v-2h6v-4h2z" />
             </svg>
             Artists
         </a>
         <a href="{% url 'login' %}">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M10 20v-6h4v6h5v-8h3l-10-9-10 9h3v8z" />
             </svg>
             Login
+        </a>
+        <!-- Add Register button -->
+        <a class="register-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M13 10v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4z" />
+            </svg>
+            Register
         </a>
     </nav>
 </body>

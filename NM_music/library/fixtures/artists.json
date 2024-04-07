@@ -4,7 +4,8 @@
     "pk": 1,
     "fields": {
       "name": "A. R. Rahman",
-      "genre": "Film Score"
+      "genre": "Film Score",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/AR_Rahman_At_The_%E2%80%98Marvel_Anthem%E2%80%99_Launch.jpg/220px-AR_Rahman_At_The_%E2%80%98Marvel_Anthem%E2%80%99_Launch.jpg"
     }
   },
   {
@@ -12,6 +13,7 @@
     "pk": 2,
     "fields": {
       "name": "Ilaiyaraaja",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet.jpg/230px-Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet.jpg",
       "genre": "Symphonic Orchestra"
     }
   },
@@ -20,6 +22,7 @@
     "pk": 3,
     "fields": {
       "name": "Anirudh Ravichander",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Anirudh_Ravichander_at_Audi_Ritz_Style_Awards_2017.jpg/220px-Anirudh_Ravichander_at_Audi_Ritz_Style_Awards_2017.jpg",
       "genre": "Pop"
     }
   },
@@ -28,6 +31,7 @@
     "pk": 4,
     "fields": {
       "name": "Yuvan Shankar Raja",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Yuvan_Shankar_Raja_exclusive_HQ_Photos_Silverscreen.jpg/220px-Yuvan_Shankar_Raja_exclusive_HQ_Photos_Silverscreen.jpg",
       "genre": "Film Score"
     }
   },
@@ -36,6 +40,7 @@
     "pk": 5,
     "fields": {
       "name": "The Beatles",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Beatles_members_at_New_York_City_in_1964.jpg/220px-The_Beatles_members_at_New_York_City_in_1964.jpg",
       "genre": "Rock"
     }
   },
@@ -44,6 +49,7 @@
     "pk": 6,
     "fields": {
       "name": "Beyoncé",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg/220px-Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
       "genre": "Pop"
     }
   },
@@ -52,6 +58,7 @@
     "pk": 7,
     "fields": {
       "name": "Miles Davis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Miles_Davis_by_Palumbo_cropped.jpg/220px-Miles_Davis_by_Palumbo_cropped.jpg",
       "genre": "Jazz"
     }
   },
@@ -60,6 +67,7 @@
     "pk": 8,
     "fields": {
       "name": "Taylor Swift",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/220px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
       "genre": "Pop"
     }
   },
@@ -68,6 +76,7 @@
     "pk": 9,
     "fields": {
       "name": "Bob Dylan",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg/220px-Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg",
       "genre": "Folk"
     }
   }
