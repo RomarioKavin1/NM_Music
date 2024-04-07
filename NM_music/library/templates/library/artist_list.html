@@ -77,7 +77,8 @@
         {% for artist in artists %}
         <li class="artist">
             <!-- Placeholder for artist image; replace with actual image path -->
-            <img src="https://via.placeholder.com/200" alt="Artist Image">
+            <img src="https://images.unsplash.com/photo-1525926477800-7a3b10316ac6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Artist Image">
             <h2><a href="{% url 'artist_detail' artist.id %}">{{ artist.name }}</a></h2>
             <p>{{ artist.genre }}</p>
             {% if artist.bio %}

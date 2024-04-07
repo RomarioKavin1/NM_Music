@@ -40,7 +40,7 @@
 
         .album-list {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
             gap: 20px;
         }
 
@@ -112,23 +112,17 @@
         {% for album in artist.albums.all %}
         <div class="album">
             {% if album.cover_image %}
-            <img src="{{ album.cover_image.url }}" alt="{{ album.title }}">
+            <img src="{{ album.image.url }}" alt="{{ album.title }}">
             {% endif %}
             <h3>{{ album.title }}</h3>
             <p>Released: {{ album.release_date|date:"Y" }}</p>
-            <div class="album-list">
-                {% for album in artist.albums.all %}
-                <div class="album">
-                    <!-- Existing album HTML... -->
-                    <audio controls>
-                        {% if album.sample_track %}
-                        <source src="{{ album.sample_track.url }}" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                        {% endif %}
-                    </audio>
-                </div>
-                {% endfor %}
-            </div>
+            <!-- Audio controls here, if applicable -->
+            <audio controls>
+                {% if album.sample_track %}
+                <source src="{{ album.sample_track.url }}" type="audio/mpeg">
+                Your browser does not support the audio element.
+                {% endif %}
+            </audio>
         </div>
         {% endfor %}
     </div>

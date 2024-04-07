@@ -12,6 +12,15 @@
     "model": "library.album",
     "pk": 2,
     "fields": {
+      "artist": 1,
+      "title": "Muzumathi",
+      "release_date": "2011-11-11"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 3,
+    "fields": {
       "artist": 2,
       "title": "How To Name It",
       "release_date": "1986-01-01"
@@ -19,7 +28,7 @@
   },
   {
     "model": "library.album",
-    "pk": 3,
+    "pk": 4,
     "fields": {
       "artist": 3,
       "title": "Kolaveri Di",
@@ -28,7 +37,7 @@
   },
   {
     "model": "library.album",
-    "pk": 4,
+    "pk": 5,
     "fields": {
       "artist": 4,
       "title": "Paiyaa",
@@ -37,7 +46,7 @@
   },
   {
     "model": "library.album",
-    "pk": 5,
+    "pk": 6,
     "fields": {
       "artist": 5,
       "title": "Abbey Road",
@@ -46,29 +55,128 @@
   },
   {
     "model": "library.album",
-    "pk": 6,
+    "pk": 7,
     "fields": {
-      "artist": 6,
+      "artist": 5,
       "title": "Sgt. Pepper's Lonely Hearts Club Band",
       "release_date": "1967-05-26"
     }
   },
   {
     "model": "library.album",
-    "pk": 7,
+    "pk": 8,
     "fields": {
-      "artist": 7,
+      "artist": 6,
       "title": "Lemonade",
       "release_date": "2016-04-23"
     }
   },
   {
     "model": "library.album",
-    "pk": 8,
+    "pk": 9,
     "fields": {
-      "artist": 8,
+      "artist": 6,
       "title": "Beyoncé",
       "release_date": "2013-12-13"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 10,
+    "fields": {
+      "artist": 1,
+      "title": "Mazaikuruvi",
+      "release_date": "2013-12-13"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 11,
+    "fields": {
+      "artist": 1,
+      "title": "Roja",
+      "release_date": "1992-08-15"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 12,
+    "fields": {
+      "artist": 1,
+      "title": "Bombay",
+      "release_date": "1995-03-10"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 13,
+    "fields": {
+      "artist": 1,
+      "title": "Dil Se",
+      "release_date": "1998-08-21"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 14,
+    "fields": {
+      "artist": 1,
+      "title": "Slumdog Millionaire",
+      "release_date": "2008-08-24"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 15,
+    "fields": {
+      "artist": 1,
+      "title": "Rockstar",
+      "release_date": "2011-11-11"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 16,
+    "fields": {
+      "artist": 2,
+      "title": "Annakili",
+      "release_date": "1976-05-14"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 17,
+    "fields": {
+      "artist": 2,
+      "title": "Nizhalgal",
+      "release_date": "1980-04-06"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 18,
+    "fields": {
+      "artist": 2,
+      "title": "Mouna Ragam",
+      "release_date": "1986-08-15"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 19,
+    "fields": {
+      "artist": 2,
+      "title": "Thalapathi",
+      "release_date": "1991-11-05"
+    }
+  },
+  {
+    "model": "library.album",
+    "pk": 20,
+    "fields": {
+      "artist": 2,
+      "title": "How To Name It",
+      "release_date": "1986-01-01"
     }
   }
 ]

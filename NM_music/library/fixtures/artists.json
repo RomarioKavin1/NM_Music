@@ -1,83 +1,74 @@
 [
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 1,
     "fields": {
-      "artist": 1,
-      "title": "Rockstar",
-      "release_date": "2011-11-11"
+      "name": "A. R. Rahman",
+      "genre": "Film Score"
     }
   },
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 2,
     "fields": {
-      "artist": 2,
-      "title": "Thiruvasagam",
-      "release_date": "2005-07-01"
+      "name": "Ilaiyaraaja",
+      "genre": "Symphonic Orchestra"
     }
   },
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 3,
     "fields": {
-      "artist": 3,
-      "title": "Kolaveri Di",
-      "release_date": "2012-02-14"
+      "name": "Anirudh Ravichander",
+      "genre": "Pop"
     }
   },
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 4,
     "fields": {
-      "artist": 4,
-      "title": "Paiyaa",
-      "release_date": "2010-03-22"
+      "name": "Yuvan Shankar Raja",
+      "genre": "Film Score"
     }
   },
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 5,
     "fields": {
-      "artist": 5,
-      "title": "Abbey Road",
-      "release_date": "1969-09-26"
+      "name": "The Beatles",
+      "genre": "Rock"
     }
   },
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 6,
     "fields": {
-      "artist": 6,
-      "title": "Lemonade",
-      "release_date": "2016-04-23"
+      "name": "Beyoncé",
+      "genre": "Pop"
     }
   },
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 7,
     "fields": {
-      "artist": 7,
-      "title": "Kind of Blue",
-      "release_date": "1959-08-17"
+      "name": "Miles Davis",
+      "genre": "Jazz"
     }
   },
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 8,
     "fields": {
-      "artist": 8,
-      "title": "1989",
-      "release_date": "2014-10-27"
+      "name": "Taylor Swift",
+      "genre": "Pop"
     }
   },
   {
-    "model": "library.album",
+    "model": "library.artist",
     "pk": 9,
     "fields": {
-      "artist": 9,
-      "title": "Highway 61 Revisited",
-      "release_date": "1965-08-30"
+      "name": "Bob Dylan",
+      "genre": "Folk"
     }
   }
 ]
